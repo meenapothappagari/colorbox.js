@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="colorbox.js"></script>
+    <style>
+        body{
+            margin-top: 90px;
+        }
+        .main-colorbox{
+            height: 20rem;
+            width: 10rem;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            color: white;
+
+        }
+        button{
+            height: 30px;
+            width: 60px;
+            display: inline-block;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 30px;
+            border-radius: 5px;
+         
+
+        }
+       
+        .btn-center{
+            display: flex; 
+            justify-content:center; 
+            align-items: center;
+        }
+        .btn-box{
+            display: grid;
+            grid-template-columns: repeat(5,80px);
+        }
+    </style>
+</head>
+<body>
+    <div class="btn-center">    
+        <div class="main-colorbox" id="colorbox"> Color Box </div>
+        <div class="btn-box"> 
+            <button id="red">red</button>
+            <button id="gold">gold</button>
+            <button id="grey">grey</button>
+            <button id="orange">orange</button>
+            <button id="black">black</button>
+            <button id="pink">pink</button>
+            <button id="Green">Green</button>
+            <button id="purple">purple</button>
+        </div>
+    </div>
+
+</body>
+</html>
